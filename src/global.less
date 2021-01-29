@@ -1,0 +1,54 @@
+@import '~vant/lib/style/var.less';
+@import '~@scf/ding-style-less/var.less';
+@import '~@scf/ding-style-less/rem.less';
+@import '~@scf/ding-style-less/loader.less';
+
+// 分隔 ---------------------------------------------
+.scf-ctx-split {
+  height: 10px;
+
+  &.bg-page {
+    background-color: @color-bg-page;
+  }
+}
+
+.page-no-data_icon {
+  background-color: #f1e5c5;
+  margin: 40px 40px 0 40px;
+  // margin: 0 40px;
+  border-radius: 10px;
+}
+
+.page-no-data_icon_mobile {
+  background-color: #f1e5c5;
+  margin: @padding-content @padding-content 0 @padding-content;
+  border-radius: @border-radius;
+}
+
+// 一体机打印成绩单按钮样式
+.positionbtn {
+  // position: fixed;
+  top: 75px !important;
+  right: -880px !important;
+  font-size: 32px !important;
+  margin-right: 30px !important;
+  background-color: #844d2d !important;
+  border-radius: 10px !important;
+  color: #ffffdc !important;
+  width: 130px !important;
+  height: 80px !important;
+  text-align: center !important;
+  line-height: 80px !important;
+  transition: background-color 0.5s !important;
+  z-index: 10000;
+}
+
+// modal框样式
+.van-dialog {
+  background-color: #f1e5c5 !important;
+}
+.van-dialog__footer {
+  .van-button--default {
+    background-color: #f1e5c5 !important;
+  }
+}
